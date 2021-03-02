@@ -1,25 +1,39 @@
 # Linux-Mint-Pos-Install
 Shell Script de pós instalação do Linux Mint x.x para utilização pessoal.
 
-# Teclado Internacional
+# Teclado Internacional com "ç"
 - Selecionar USA Int. e Utilizar este [manual](https://www.vivaolinux.com.br/topico/Debian/Teclado-US-internacional-nao-consigo-configurar-para-usar-acentos-e-nem-cedilha)
 
-# Sublime Plugins 
-* TodoTXTSyntax
-
-# Linux Apps 
-* Sublime Text
+# Basic 
+* Zsh
+* Curl
+* Vim
+* Nvim
+* Jq
+```sudo apt install -y zsh curl vim imagemagick jq```
+* Sublime Text 
+  - Sublime Plugins
+* WPS 
+* PDF 
+* Tesseract: OCR
+* ffmpeg
+* VLC Media Player 
+* spotify
 * Oh My Sh
-* Telegram
-* VLC Media Player
-* WPS Writer (Offices)
+* Telegram(web:)
 * Insync / Dropbox 
-* Env (Python, Ruby etc)
+* Ruby
+ - Rails 
+ - gem install rake bundler rspec rubocop rubocop-performance pry pry-byebug hub colored octokit 
+* Python
 * Assinador Receita Fedral 
-* PDF ? 
+* AWS : Configurar Keys 
+* Heroku : Configurar Keys
+
+# Actions 
+* Clonar Repositórios Padrões
+* Configurar Github
+* Baixar Configurações OhMyzshel 
 
 # Remove Apps
 * Remover o Celluloid (Aplicativo de Vídeos): 'sudo apt purge celluloid'
-
-# Gems 
-* gem install rake bundler rspec rubocop rubocop-performance pry pry-byebug hub colored octokit
