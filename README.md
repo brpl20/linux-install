@@ -18,6 +18,7 @@ Shell Script de pós instalação do Linux Mint x.x para utilização pessoal.
 * Tesseract: OCR
 * ffmpeg
 * VLC Media Player 
+* youtube-dl
 * spotify
 * Oh My Sh
 * Telegram(web:)
@@ -27,8 +28,12 @@ Shell Script de pós instalação do Linux Mint x.x para utilização pessoal.
  - gem install rake bundler rspec rubocop rubocop-performance pry pry-byebug hub colored octokit 
 * Python
 * Assinador Receita Fedral 
+* WorkRave
+* F.Lux
+* ScreenShot (flameshot)
 * AWS : Configurar Keys 
 * Heroku : Configurar Keys
+
 
 # Actions 
 * Clonar Repositórios Padrões
