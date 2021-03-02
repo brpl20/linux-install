@@ -1,5 +1,8 @@
-# Linux-Mint-19.x-PosInstall
-Shell Script de pós instalação do Linux Mint 19.x para utilização pessoal.
+# Linux-Mint-Pos-Install
+Shell Script de pós instalação do Linux Mint x.x para utilização pessoal.
+
+# Teclado Internacional
+- Selecionar USA Int. e Utilizar este [manual](https://www.vivaolinux.com.br/topico/Debian/Teclado-US-internacional-nao-consigo-configurar-para-usar-acentos-e-nem-cedilha)
 
 # Sublime Plugins 
 * TodoTXTSyntax
