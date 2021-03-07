@@ -7,10 +7,10 @@ Shell Script de pós instalação do Linux Mint x.x para utilização pessoal.
 # Basic 
 * Zsh
 * Curl
-* Vim
-* Nvim
+* Vim e Nvim
 * Jq
-```sudo apt install -y zsh curl vim imagemagick jq```
+```sudo apt install -y zsh curl vim nvim jq```
+
 * Sublime Text 
   - Sublime Plugins
 * WPS 
