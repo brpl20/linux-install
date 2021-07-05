@@ -1,0 +1,42 @@
+# Get External IP / Internet Speed
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
+
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+# ZshConfig Fast
+alias zshconfig="vim ~/.zshrc"
+alias zshaliases="vim ~/.aliases"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
+
+# Atalhos Projetos
+alias wikit="cd ~/code/wikit"
+alias wikitd="stt ~/code/wikit/daily/daily.md"
+alias prc4="cd ~/code/prc4"
+alias learning="cd ~/code/learning-blog"
+alias ror="nvim ~/gdsp/study/ror"
+alias code="cd ~/code"
+
+# Atalhos Fast
+alias ~="cd ~"
+alias .="cd .."
+alias ..="cd ../.."
+alias ...="cd ../../.."
+alias ....="cd ../../../.."
+alias cd..="cd .."
+alias gd="cd ~/gd"
+
+# Atalhos Pastas Comuns
+alias gdesc="cd ~/gdesc"
+alias desk="cd ~/Desktop"
+alias down="cd ~/Downloads"
+alias swap="cd ~/gdsp/procstudio/aws_swap_base_files"
+
+# Atalhos cComandos
+alias lla="ll -all"
+
+# Diversos 
+gsall(){find . -name '.git' | while read -r repo ; do repo=${repo%".git"}; (git -C "$repo" status -s | grep -q -v "^\$" && echo -e "\n\033[1m${repo}\033[m" && git -C "$repo" status -s) || true; done}
+gitup(){DIA=$(date +%d/%m/%Y) | git add . && git add -u && git commit -m "Atualizado $DIA" && git push origin master}
+docl(){KEY=`aws s3 ls prcstudio3herokubucket --recursive | sort | tail -n 1 | awk '{print $4}'`; aws s3 cp s3://prcstudio3herokubucket/$KEY ~/aws_test; sleep 10; cd ~/aws_test; KEY_F=`ls -alt -A | tail -n 1 | awk '{print $NF}'`; wps $KEY_F}
