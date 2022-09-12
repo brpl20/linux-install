@@ -10,6 +10,9 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 - Teclado Internacional com "ç": [manual](https://www.vivaolinux.com.br/topico/Debian/Teclado-US-internacional-nao-consigo-configurar-para-usar-acentos-e-nem-cedilha) e [este](https://ubuntuforum-br.org/index.php/topic,123209.0.html)
 - Desabilitar Secure Ctrl+V no Terminal: `Terminal Preferences => Clipboard [ ] Show unsafe past dialog`
 
+# Pra Ajeitar no Firefox 
+- https://www.danielkossmann.com/ajeitando-cedilha-errado-ubuntu-linux/
+
 # Passo-a-Passo
 1. Firefox Sync
 2. Gitub
