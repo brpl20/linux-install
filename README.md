@@ -57,6 +57,9 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 * ScreenShot (flameshot)
 * AWS : Configurar Keys 
 * Heroku : Configurar Keys
+* Openbox => Atalhos
+* Dmenu (alt+f3) => menu rápido/simples
+* espanso => estilo autohokey do win
 
 
 # Actions 
