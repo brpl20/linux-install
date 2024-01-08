@@ -26,16 +26,21 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 2. omzh: ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 
 ## Basics - GitHub 
-1. ```curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg```
-2. ```echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null```
-3. ```sudo apt update```
-4. ```sudo apt install -y gh```
-5. ```gh --version```
+### GH
+```curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg```
+```echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null```
+```sudo apt update```
+```sudo apt install -y gh```
+```gh --version```
+```gh auth login -s 'user:email' -w``` # ssh / Y / enter / enter
 
-# Repos Clonar 
+# Create Code Folder & Repos Clonar 
 `mkdir "~/code"`
 `cd ~/code"`
-`git clone git@github.com:brpl20/prc4.git/wikit.git/learning-blog.git/brpl-blog.git`
+```gh repo clone brpl20/procstudio_front``` 
+```gh repo clone brpl20/procstudio_front``` 
+```gh repo clone brpl20/procstudio_front``` 
+```gh repo clone brpl20/procstudio_front``` 
 
 
 # Gems
