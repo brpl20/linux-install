@@ -45,10 +45,12 @@ sudo apt install -y gh
 
 ```bash
 gh --version```
+```
 
 ```bash
 gh auth login -s 'user:email' -w -ssh -Y
-``` # ssh / Y / enter / enter
+# ssh / Y / enter / enter
+``` 
 
 # Create Code Folder & Repos Clonar 
 `mkdir "~/code"`
