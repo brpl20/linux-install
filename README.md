@@ -27,12 +27,28 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 
 ## Basics - GitHub 
 ### GH
-```curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg```
-```echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null```
-```sudo apt update```
-```sudo apt install -y gh```
-```gh --version```
-```gh auth login -s 'user:email' -w``` # ssh / Y / enter / enter
+```bash
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+```
+
+```bash
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+```
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install -y gh
+```
+
+```bash
+gh --version```
+
+```bash
+gh auth login -s 'user:email' -w -ssh -Y
+``` # ssh / Y / enter / enter
 
 # Create Code Folder & Repos Clonar 
 `mkdir "~/code"`
