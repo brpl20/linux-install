@@ -114,15 +114,49 @@ exec zsh
 ```bash
 ruby -v
 ```
-
-## Coding - Js/Node
-
-## Coding - Java
-
-## Gems
+### Ruby Gems
 ```bash
 gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3:1.7.3 activerecord:7.1.3.2 docx
 ```
+## Coding - Js/Node
+[nvm](https://github.com/nvm-sh/nvm)
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh
+```
+
+```bash
+exec zsh
+```
+
+```bash
+nvm -v
+```
+
+```bash
+nvm install 20.13.1
+```
+
+```bash
+node -v
+```
+
+## yarn
+```bash
+npm install --global yarn
+```
+
+```bash
+exec zsh
+```
+
+```bash
+yarn -v
+```
+
+## Coding - Java
+
+
 ## 
 
 ## Apps 
