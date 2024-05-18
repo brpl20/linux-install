@@ -26,6 +26,10 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 - omzh: ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 - ```sudo apt install -y git imagemagick zsh curl vim jq tree```
 
+### DotFiles 
+- Aliases
+- Syntax Highlight
+
 
 # Basics
 ## Basics - GitHub 
