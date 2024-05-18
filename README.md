@@ -13,17 +13,21 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 6. Coding Setup 
 
 # Configurações Iniciais
-- Teclado Internacional com "ç": [manual](https://www.vivaolinux.com.br/topico/Debian/Teclado-US-internacional-nao-consigo-configurar-para-usar-acentos-e-nem-cedilha) e [este](https://ubuntuforum-br.org/index.php/topic,123209.0.html)
+## Teclado Internacional com "ç":
+  - [manual](https://www.vivaolinux.com.br/topico/Debian/Teclado-US-internacional-nao-consigo-configurar-para-usar-acentos-e-nem-cedilha)
+  - [este](https://ubuntuforum-br.org/index.php/topic,123209.0.html)
+  - [esse-tambem](https://www.danielkossmann.com/ajeitando-cedilha-errado-ubuntu-linux/)
+
+## Terminal
 - Desabilitar Secure Ctrl+V no Terminal: `Terminal Preferences => Clipboard [ ] Show unsafe past dialog`
 - Alterar o Ctrl + Shift + C ou V no Terminal: `Terminal Preferences => ShortCuts`
+- omzh: ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+- ```sudo apt install -y git imagemagick zsh curl vim jq tree```
 
-## Pra Ajeitar no Firefox 
-- https://www.danielkossmann.com/ajeitando-cedilha-errado-ubuntu-linux/
 
 
 # Basics
-1. Essentials: ```sudo apt install -y git imagemagick zsh curl vim jq tree```
-2. omzh: ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+1. 
 
 ## Basics - GitHub 
 ### GH
