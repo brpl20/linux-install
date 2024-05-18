@@ -104,6 +104,7 @@ gh auth login -s 'user:email' -w -ssh -Y
 * Openbox => Atalhos
 * Dmenu (alt+f3) => menu rápido/simples
 * espanso => estilo autohokey do win
+* autoin (Terminal comandos rapidos)
 
 
 # Actions 
