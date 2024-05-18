@@ -26,15 +26,18 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 - omzh:
 
 ```bash
-*c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+```
 
 ```bash
-sudo apt install -y git imagemagick zsh curl vim jq tree```
+sudo apt install -y git imagemagick zsh curl vim jq tree
+```
 
 - Atuin:
 
 ```bash
-/bin/bash -c "$(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)"```
+/bin/bash -c "$(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)"
+```
 
 ```bash 
 atuin login | atuin sync``` (ver como puxar todos os comandos inclusive das versões passadas) ToDO
@@ -65,7 +68,7 @@ sudo apt install -y gh
 ```
 
 ```bash
-gh --version```
+gh --version
 ```
 
 ```bash
@@ -83,21 +86,33 @@ gh auth login -s 'user:email' -w -ssh -Y
 
 ## Coding - Python
 - Pré Instalado no Ubuntu
-```sudo apt install python3-venv python3-pip```
+```bash
+sudo apt install python3-venv python3-pip
+```
 
 ## Coding - Ruby
 ```bash
-sudo apt install -y build-essential tklib zlib1g-dev libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev libreadline-dev libyaml-dev```
+sudo apt install -y build-essential tklib zlib1g-dev libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev libreadline-dev libyaml-dev
+```
+
 ```bash
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv```
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+```
+
 ```bash
-rbenv install 3.3```
+rbenv install 3.3
+```
+
 ```bash
-rbenv global 3.3```
+rbenv global 3.3
+```
+
 ```bash
-exec zsh
+exec zsh```
+
 ```bash
-ruby -v```
+ruby -v
+```
 
 ## Coding - Js/Node
 
