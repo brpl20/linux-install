@@ -23,8 +23,15 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 ## Terminal
 - Desabilitar Secure Ctrl+V no Terminal: `Terminal Preferences => Clipboard [ ] Show unsafe past dialog`
 - Alterar o Ctrl + Shift + C ou V no Terminal: `Terminal Preferences => ShortCuts`
-- omzh: ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
-- ```sudo apt install -y git imagemagick zsh curl vim jq tree```
+- omzh:
+```
+bsh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+```bash
+sudo apt install -y git imagemagick zsh curl vim jq tree```
+- Atuin: ```/bin/bash -c "$(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)"```
+```bash 
+atuin login | atuin sync``` (ver como puxar todos os comandos inclusive das versões passadas) ToDO
+
 
 ### DotFiles 
 - Aliases
@@ -71,8 +78,19 @@ gh auth login -s 'user:email' -w -ssh -Y
 - Pré Instalado no Ubuntu
 ```sudo apt install python3-venv python3-pip```
 
-
 ## Coding - Ruby
+```bash
+sudo apt install -y build-essential tklib zlib1g-dev libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev libreadline-dev libyaml-dev```
+```bash
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv```
+```bash
+rbenv install 3.3```
+```bash
+rbenv global 3.3```
+```bash
+exec zsh
+```bash
+ruby -v```
 
 ## Coding - Js/Node
 
