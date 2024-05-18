@@ -108,7 +108,8 @@ rbenv global 3.3
 ```
 
 ```bash
-exec zsh```
+exec zsh
+```
 
 ```bash
 ruby -v
@@ -119,8 +120,10 @@ ruby -v
 ## Coding - Java
 
 ## Gems
-- Docx 
-- omnidocx
+```bash
+gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3:1.7.3 activerecord:7.1.3.2 docx
+```
+## 
 
 ## Apps 
 * Sublime Text 
