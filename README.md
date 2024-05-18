@@ -1,6 +1,8 @@
 # Linux-Ubuntu-Ubuntu-Post-Install
 Shell Script de pós instalação do Linux Mint para utilização pessoal.
 
+- https://github.com/lewagon/setup/blob/master/ubuntu.md
+
 # Configurações de Instalaçao
 - Teclado: `English (US) - English (US, alt. intl.)`
 
@@ -25,10 +27,7 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 - ```sudo apt install -y git imagemagick zsh curl vim jq tree```
 
 
-
 # Basics
-1. 
-
 ## Basics - GitHub 
 ### GH
 ```bash
@@ -56,7 +55,7 @@ gh auth login -s 'user:email' -w -ssh -Y
 # ssh / Y / enter / enter
 ``` 
 
-# Create Code Folder & Repos Clonar 
+## Create Code Folder & Repos Clonar 
 `mkdir "~/code"`
 `cd ~/code"`
 ```gh repo clone brpl20/procstudio_front``` 
@@ -64,11 +63,22 @@ gh auth login -s 'user:email' -w -ssh -Y
 ```gh repo clone brpl20/procstudio_front``` 
 ```gh repo clone brpl20/procstudio_front``` 
 
+## Coding - Python
+- Pré Instalado no Ubuntu
+```sudo apt install python3-venv python3-pip```
 
-# Gems
+
+## Coding - Ruby
+
+## Coding - Js/Node
+
+## Coding - Java
+
+## Gems
 - Docx 
 - omnidocx
 
+## Apps 
 * Sublime Text 
   - Sublime Plugins
 * WPS 
