@@ -6,6 +6,11 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 # Configurações de Instalaçao
 - Teclado: `English (US) - English (US, alt. intl.)`
 
+# VFITF - Very Fucking Important Things That I Forget
+- Espanso Sync;
+- Atuin Sync;
+- ShellScripts; 
+
 # Passo-a-Passo
 1. Firefox Sync
 2. Chrome Sync
