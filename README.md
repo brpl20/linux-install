@@ -15,9 +15,15 @@ Shell Script de pós instalação do Linux Mint para utilização pessoal.
 1. Firefox Sync
 2. Chrome Sync
 3. InSync: Trabalho (Microsoft) + Pessoal (Google)
-4. GitHub
+4. Git + Gh 
 5. Basics
-6. Coding Setup 
+6. Coding Setup
+
+# ShortCut Freaks
+## Browsers 
+- https://chromewebstore.google.com/detail/keyboard-shortcuts/
+
+- Alt + T (Dulicate Tabs) 
 
 # Configurações Iniciais
 ## Teclado Internacional com "ç":
